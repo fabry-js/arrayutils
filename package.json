@@ -1,25 +1,28 @@
 {
-    "name": "@fjs/arrayutils",
-    "version": "0.0.1",
-    "description": "Array Utils for excercising with typescript and Array Logic",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fabry-js/arrayutils.git"
-    },
-    "keywords": [
-      "arrays",
-      "arrayutils",
-      "typescript",
-      "ts"
-    ],
-    "author": "fabry-js",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/fabry-js/arrayutils/issues"
-    },
-    "homepage": "https://github.com/fabry-js/arrayutils#readme"
+  "name": "@fjs/arrayutils",
+  "version": "0.0.1",
+  "description": "Array Utils for excercising with typescript and Array Logic",
+  "main": "lib/arrayutils.js",
+  "scripts": {
+    "test": "npx tsc tests/tests.ts && node tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabry-js/arrayutils.git"
+  },
+  "keywords": [
+    "arrays",
+    "arrayutils",
+    "typescript",
+    "ts"
+  ],
+  "author": "fabry-js",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabry-js/arrayutils/issues"
+  },
+  "homepage": "https://github.com/fabry-js/arrayutils#readme",
+  "dependencies": {
+    "typescript": "^4.1.3"
   }
+}
